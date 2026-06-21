@@ -1,0 +1,14 @@
+streamlit==1.38.0
+pandas==2.2.2
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+openpyxl==3.1.5
+plotly==5.23.0
+python-dotenv==1.0.1
+playwright==1.46.0
+
+# AI provider SDKs — only the one matching AI_PROVIDER in .env is actually used at runtime,
+# but all three are listed so you can switch providers without reinstalling.
+openai==1.45.0
+google-generativeai==0.8.1
